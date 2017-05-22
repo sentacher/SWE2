@@ -76,7 +76,7 @@ extern int printini(INI_HEADER *head){
 	temp=head->First;
 	int i=1;
 
-	//Ausgabe in Textfile
+	//Ausgabe in stdout
 	do {
 		printf("%d. value der Liste: %s\n",i,temp->val);
 		printf("%d. key der Liste: %s\n", i,temp->key);
